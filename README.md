@@ -32,6 +32,8 @@ Installation Instructions:
     
     tar xvf arduino-1.5.8-linux.tgz
     
+    rm arduino-1.5.8-linux.tgz
+    
 3. Download Sudar's makefiles with
 
     wget https://github.com/sudar/Arduino-Makefile/archive/master.zip --no-check-certificate
