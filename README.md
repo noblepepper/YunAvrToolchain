@@ -5,7 +5,7 @@ This will allow Arduino sketches to be compiled and uploaded to the 32u4 side of
 1. You need to edit the sketch with a text editor of your choice
 2. You must place function prototypes in your sketch before the function is called if you use any functions other than setup and loop
 3. You need a makefile system like https://github.com/sudar/Arduino-Makefile/archive/master.zip, a Makefile to use Sudar's system is inlcuded in this package.
-4. You need a sdcard set up as in YunDiskSpaceExpander
+4. You need a sdcard set up by YunDiskSpaceExpander
 5. You need to have installed unzip and make through opkg
 
 Installation Instructions:
