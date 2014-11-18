@@ -10,7 +10,7 @@ Installation Instructions:
 
 1. Download this to your Yun with 
 
-    wget https://github.com/noblepepper/YunAvrToolchain/archive/master.zip
+    wget https://github.com/noblepepper/YunAvrToolchain/archive/master.zip --no-check-certificate
     
     mkdir /usr/local
     
@@ -24,7 +24,7 @@ Installation Instructions:
     
 2. Download a 1.5.x series Arduino IDE to your Yun with
 
-    wget http://arduino.cc/download.php?f=/arduino-1.5.8-linux32.tgz
+    wget http://arduino.cc/download.php?f=/arduino-1.5.8-linux32.tgz --no-check-certificate
     
     mv arduino-1.5.8-linux32.tgz /usr/local
     
@@ -34,7 +34,7 @@ Installation Instructions:
     
 3. Download Sudar's makefiles with
 
-    wget https://github.com/sudar/Arduino-Makefile/archive/master.zip
+    wget https://github.com/sudar/Arduino-Makefile/archive/master.zip --no-check-certificate
     
     mv master.zip /usr/local
     
