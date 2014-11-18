@@ -55,7 +55,14 @@ Installation Instructions:
         
         cd Blink
         
-        cp 
+        cp /usr/local/YunAvrToolchain-master/Makefile ./
+        
+        make
+        
+        merge-sketch-with-bootloader.lua build-yun/bridge.hex
+        
+        run-avrdude build-yun/bridge.hex
+
 
 See https://github.com/noblepepper/toolchain-avr to see the changes from the stock toolchain that allowed this to be compiled on the Yun.
 
