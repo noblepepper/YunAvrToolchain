@@ -49,8 +49,9 @@ Installation Instructions:
     rm master.zip
     
 4. Setup a work area and run a test
-        mkdir /root/sketchbook
 
+        mkdir /root/sketchbook
+        
         cd /root/sketchbook
         
         cd sketchbook
