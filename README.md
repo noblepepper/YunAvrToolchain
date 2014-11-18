@@ -45,12 +45,17 @@ Installation Instructions:
     rm master.zip
     
 4. Setup a work area and run a test
-    mkdir /root/sketchbook
-    cd /root/sketchbook
-    cd sketchbook
-    cp -dpr /usr/local/arduino-1.5.8/examples/01.Basics/Blink ./
-    cd Blink
-    cp 
+        mkdir /root/sketchbook
+
+        cd /root/sketchbook
+        
+        cd sketchbook
+        
+        cp -dpr /usr/local/arduino-1.5.8/examples/01.Basics/Blink ./
+        
+        cd Blink
+        
+        cp 
 
 See https://github.com/noblepepper/toolchain-avr to see the changes from the stock toolchain that allowed this to be compiled on the Yun.
 
