@@ -5,6 +5,8 @@ This will allow Arduino sketches to be compiled and uploaded to the 32u4 side of
 1. You need to edit the sketch with a text editor of your choice
 2. You must place function prototypes in your sketch before the function is called if you use any functions other than setup and loop
 3. You need a makefile system like https://github.com/sudar/Arduino-Makefile/archive/master.zip, a Makefile to use Sudar's system is inlcuded in this package.
+4. You need a sdcard set up as in YunDiskSpaceExpander
+5. You need to have installed unzip, 
 
 Installation Instructions:
 
@@ -26,13 +28,13 @@ Installation Instructions:
 
     wget http://arduino.cc/download.php?f=/arduino-1.5.8-linux32.tgz --no-check-certificate
     
-    mv arduino-1.5.8-linux32.tgz /usr/local
+    mv download.php?f=/arduino-1.5.8-linux32.tgz /usr/local
     
     cd /usr/local
     
-    tar xvf arduino-1.5.8-linux.tgz
+    tar zxvf download.php?f=/arduino-1.5.8-linux32.tgz
     
-    rm arduino-1.5.8-linux.tgz
+    rm download.php?f=/arduino-1.5.8-linux32.tgz
     
 3. Download Sudar's makefiles with
 
