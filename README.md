@@ -69,5 +69,5 @@ Installation Instructions:
         run-avrdude build-yun/bridge.hex
 
 
-See https://github.com/noblepepper/toolchain-avr to see the changes from the stock toolchain that allowed this to be compiled on the Yun.
+See https://github.com/noblepepper/toolchain-avr to see the changes from the stock Arduino toolchain that allowed this to be compiled on the Yun.
 
