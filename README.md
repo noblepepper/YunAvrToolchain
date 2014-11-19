@@ -54,8 +54,6 @@ Installation Instructions:
         
         cd /root/sketchbook
         
-        cd sketchbook
-        
         cp -dpr /usr/local/arduino-1.5.8/examples/01.Basics/Blink ./
         
         cd Blink
