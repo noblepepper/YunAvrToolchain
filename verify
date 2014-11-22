@@ -1,0 +1,13 @@
+#! /bin/ash
+if test -z "$1"
+then
+  echo "You must give a name for the sketch."
+else
+	if [ -e /root/sketchbook/$1/build-yun/$1.hex ]
+	then
+		echo "removing existing hex file"
+		rm /root/sketchbook/$1/build-yun/$1.hex
+	fi
+	touch $1.ino
+	cd /root/sketchbook/$1; echo `pwd`; make
+fi

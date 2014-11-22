@@ -1,0 +1,24 @@
+#! /bin/bash
+if test -z "$1"
+then
+  echo "You must give a name for the sketch."
+elif [ -e /root/sketchbook/$1 ]
+then
+	echo "$1 already exists"
+else
+	mkdir -p /root/sketchbook/$1
+	cp /usr/local/YunAvrToolchain-master/Makefile /root/sketchbook/$1
+	echo "void setup() {" > /root/sketchbook/$1/$1.ino
+	echo "	// put your setup code here, to run once:" >> /root/sketchbook/$1/$1.ino
+	echo "" >> /root/sketchbook/$1/$1.ino
+	echo "}" >> /root/sketchbook/$1/$1.ino
+	echo "" >> /root/sketchbook/$1/$1.ino
+	echo "void loop() {" >> /root/sketchbook/$1/$1.ino
+	echo "	// put your main code here, to run repeatedly:" >> /root/sketchbook/$1/$1.ino
+	echo "" >> /root/sketchbook/$1/$1.ino
+	echo "}" >> /root/sketchbook/$1/$1.ino
+fi
+pushd /root/sketchbook/$1 > /dev/null
+popd > /dev/null
+
+
