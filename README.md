@@ -22,6 +22,14 @@ Installation Instructions:
     
     unzip master.zip
     
+    mkdir /usr/local/bin
+    
+    mv YunAvrToolchain-master/upload /usr/local/bin
+    
+    mv YunAvrToolchain-master/newSketch /usr/local/bin
+    
+    mv YunAvrToolchain-master/verify /usr/local/bin
+    
     rm master.zip
     
 2. Download a 1.5.x series Arduino IDE to your Yun with
