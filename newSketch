@@ -18,7 +18,6 @@ else
 	echo "" >> /root/sketchbook/$1/$1.ino
 	echo "}" >> /root/sketchbook/$1/$1.ino
 fi
-pushd /root/sketchbook/$1 > /dev/null
-popd > /dev/null
+
 
 
