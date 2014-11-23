@@ -58,21 +58,11 @@ Installation Instructions:
     
 4. Setup a work area and run a test
 
-        mkdir /root/sketchbook
-        
-        cd /root/sketchbook
-        
-        cp -dpr /usr/local/arduino-1.5.8/examples/01.Basics/Blink ./
-        
-        cd Blink
-        
-        cp /usr/local/YunAvrToolchain-master/Makefile ./
-        
-        make
-        
-        merge-sketch-with-bootloader.lua build-yun/bridge.hex
-        
-        run-avrdude build-yun/bridge.hex
+    newSketch Blink
+     
+    cp /usr/local/arduino-1.5.8/examples/01.Basics/Blink/Blink.ino /root/sketchbook/Blink/
+    
+    upload Blink
 
 
 See https://github.com/noblepepper/toolchain-avr to see the changes from the stock Arduino toolchain that allowed this to be compiled on the Yun.
